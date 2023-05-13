@@ -8,6 +8,7 @@ const Colors = {
     white: "#ffff",
     alt: "rgba(0,0,0,0.5)",
   };
-  
+
+
   export default Colors;
   
