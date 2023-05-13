@@ -6,6 +6,7 @@ const Colors = {
     secondary: "#F7BE7D",
     dark: "#000",
     white: "#ffff",
+    alt: "rgba(0,0,0,0.5)",
   };
   
   export default Colors;
