@@ -1,6 +1,7 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 import Colors from "../constants/Colors";
+import Sizes from "../constants/sizes";
 import Card from "../constants/Card";
 import { Entypo } from "@expo/vector-icons";
 import { FontAwesome } from "@expo/vector-icons";
@@ -44,12 +45,12 @@ export default function Bottom() {
 
 const styles = StyleSheet.create({
   bottomContainer: {
-    marginTop: 20,
+    marginTop: Sizes.medium,
   },
   completeContainer: {
     flexDirection: "row",
     justifyContent: "space-between",
-    marginTop: 10,
+    marginTop: Sizes.xs,
   },
   card: {
     backgroundColor: Colors.secondary,
@@ -57,11 +58,11 @@ const styles = StyleSheet.create({
   bottomSection: {
     justifyContent: "center",
     alignItems: "center",
-    marginTop: 20,
+    marginTop: Sizes.medium,
   },
   bottomSectionText: {
     fontWeight: "bold",
-    fontSize: 18,
+    fontSize: Sizes.smedium,
     color: Colors.darkGray,
     borderBottomWidth: 1,
     marginBottom: 5,
