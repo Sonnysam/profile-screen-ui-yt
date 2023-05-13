@@ -1,13 +1,11 @@
 const Colors = {
     light: "#eeee",
     grey: "#D8D8D8",
-    darkGray: "#647E68",
-    primary: "rgb(96, 176, 244)",
-    secondary: "#F26C68",
+    darkGray: "#3F4F57",
+    primary: "#99D5F3",
+    secondary: "#F7BE7D",
     dark: "#000",
     white: "#ffff",
-    green: "#4f9d72",
-    lightGreen: "#A8E890",
   };
   
   export default Colors;
