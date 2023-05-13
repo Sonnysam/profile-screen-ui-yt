@@ -1,6 +1,7 @@
 import { StyleSheet, Text, View, ImageBackground } from "react-native";
 import Top from "./components/Top";
 import Middle from "./components/Middle";
+import Bottom from "./components/Bottom";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
         <View style={styles.container}>
           <Top />
           <Middle />
+          <Bottom/>
         </View>
       </ImageBackground>
     </>
@@ -25,7 +27,7 @@ const styles = StyleSheet.create({
     resizeMode: "cover",
   },
   container: {
-    marginHorizontal: 10,
+    marginHorizontal: 20,
     marginTop: 55,
   },
 });
