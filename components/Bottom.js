@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
   bottomSection: {
     justifyContent: "center",
     alignItems: "center",
-    marginTop: 15,
+    marginTop: 20,
   },
   bottomSectionText: {
     fontWeight: "bold",
